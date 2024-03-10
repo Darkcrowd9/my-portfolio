@@ -1,0 +1,87 @@
+* {
+    background-color: rgb(27, 212, 236);
+    margin: 20px;
+    color: rgb(32, 27, 27);
+}
+
+/* Start-here */
+
+#Start-here{
+    height: 90vh;
+}
+
+.Start-here-container {
+    display: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.part-one {
+    
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-img {
+    float: right;
+    padding-right: 150px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* about */
+#About  {
+    height: 90vh;
+    
+}
+.about-me h2,p {
+    text-align: center;
+    font-style: oblique;
+
+}
+
+/* skills-set */
+#Skils {
+    height: 90vh;    
+}
+.skills-set h2 {
+    text-align: center;
+
+}
+
+
+/* Projects */
+#Projects {
+    padding-top: 20px; 
+
+}
+
+.projects-container {
+    display: grid;    
+}
+
+
+/* Contact */
+
+#Contact {
+    height: 90vh;
+    text-align: center;
+}
+
+.submit {
+    padding-top: 25px;    
+}
+
+.button {
+    padding: 10px 50px; 
+    border-radius: 20px;
+    background-color: antiquewhite;
+    cursor: pointer;
+}
